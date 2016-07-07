@@ -7,6 +7,7 @@ module.exports = function(grunt) {
     data: {
     	projectDev : 'source/',
     	projectDir : 'dist/',
+      projectNode: 'node_modules/',
       pkg: grunt.file.readJSON('package.json')
     }
   });
