@@ -4,7 +4,13 @@
   "description": "",
   "main": "source/js/app.js",
   "scripts": {
+    "build": "webpack --config ./config/webpack.config.prod.js --progress --profile --colors",
+    "build:dev": "webpack-dev-server --config ./config/webpack.config.dev.js --progress --colors --inline",
     "doc": "esdoc -c esdoc.json",
+    "lint": "eslint source/js/**",
+    "precommit": "npm run lint",
+    "prepush": "npm run lint",
+    "start": "npm run build:dev && npm run doc",
     "test": ""
   },
   "repository": {
@@ -26,6 +32,7 @@
   },
   "devDependencies": {
     "esdoc": "^0.4.7",
+    "eslint": "^3.0.1",
     "grunt": "^1.0.1",
     "gulp": "^3.9.1",
     "gulp-load-tasks": "^0.8.4",

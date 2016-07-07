@@ -9,6 +9,12 @@
 npm install
 ```
 
+## Usage
+
+```bash
+npm start
+```
+
 ## Documentation
 
 ```bash
