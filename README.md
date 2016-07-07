@@ -3,6 +3,24 @@
 [![licence mit](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](http://hemersonvianna.mit-license.org/)
 [![issues](https://img.shields.io/github/issues/prime-solutions/prime-angularjs.svg?style=flat-square)](https://github.com/prime-solutions/prime-angularjs/issues)
 
+## Install
+
+```bash
+npm install
+```
+
+## Documentation
+
+```bash
+npm run doc
+```
+
+## Tests
+
+```bash
+npm test
+```
+
 ## Contributing
 
 - Fork it!
