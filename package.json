@@ -4,6 +4,7 @@
   "description": "",
   "main": "source/js/app.js",
   "scripts": {
+    "doc": "esdoc -c esdoc.json",
     "test": ""
   },
   "repository": {
@@ -24,11 +25,13 @@
     "angular": "^1.5.7"
   },
   "devDependencies": {
+    "esdoc": "^0.4.7",
     "grunt": "^1.0.1",
     "gulp": "^3.9.1",
     "gulp-load-tasks": "^0.8.4",
     "gulp-util": "^3.0.7",
     "load-grunt-config": "^0.19.2",
+    "mocha": "^2.5.3",
     "webpack": "^1.13.1",
     "webpack-dev-server": "^1.14.1"
   }
