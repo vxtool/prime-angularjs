@@ -15,7 +15,7 @@ npm install
 npm start
 ```
 
-Access localhost via `http://localhost:8100/`
+Access `http://localhost:8100/`
 
 ## Documentation
 
