@@ -19,5 +19,17 @@
   "bugs": {
     "url": "https://github.com/prime-solutions/prime-angularjs/issues"
   },
-  "homepage": "https://github.com/prime-solutions/prime-angularjs#readme"
+  "homepage": "https://github.com/prime-solutions/prime-angularjs#readme",
+  "dependencies": {
+    "angular": "^1.5.7"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "gulp": "^3.9.1",
+    "gulp-load-tasks": "^0.8.4",
+    "gulp-util": "^3.0.7",
+    "load-grunt-config": "^0.19.2",
+    "webpack": "^1.13.1",
+    "webpack-dev-server": "^1.14.1"
+  }
 }
