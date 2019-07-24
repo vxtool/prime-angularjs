@@ -1,7 +1,12 @@
 # Prime AngularJS
 
 [![licence mit](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](http://hemersonvianna.mit-license.org/)
-[![issues](https://img.shields.io/github/issues/prime-solutions/prime-angularjs.svg?style=flat-square)](https://github.com/prime-solutions/prime-angularjs/issues)
+[![GitHub issues](https://img.shields.io/github/issues/org-victorinox/prime-angularjs.svg)](https://github.com/org-victorinox/prime-angularjs/issues)
+![GitHub package.json version](https://img.shields.io/github/package-json/v/org-victorinox/prime-angularjs.svg)
+![GitHub Release Date](https://img.shields.io/github/release-date/org-victorinox/prime-angularjs.svg)
+![GitHub top language](https://img.shields.io/github/languages/top/org-victorinox/prime-angularjs.svg)
+![GitHub repo size](https://img.shields.io/github/repo-size/org-victorinox/prime-angularjs.svg)
+![GitHub All Releases](https://img.shields.io/github/downloads/org-victorinox/prime-angularjs/total.svg)
 
 ## Install
 
@@ -39,7 +44,7 @@ npm test
 
 ## Log
 
-Check [Releases](https://github.com/prime-solutions/prime-angularjs/releases) for detailed changelog.
+Check [Releases](https://github.com/org-victorinox/prime-angularjs/releases) for detailed changelog.
 
 ## License
 
