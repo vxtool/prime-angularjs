@@ -1,0 +1,13 @@
+<mat-drawer-container class="example-container" autosize>
+  <mat-drawer opened="true" #drawer class="example-sidenav" mode="side">
+    <p>Welcome</p>
+  </mat-drawer>
+
+  <div class="example-sidenav-content">
+    <mat-toolbar>
+      <button (click)="drawer.toggle()" mat-button><i class="material-icons">menu</i></button>
+      <span style="padding: 0 3%">My Application</span>
+    </mat-toolbar>
+  </div>
+
+</mat-drawer-container>
