@@ -1,0 +1,29 @@
+
+  <mat-card>
+      <mat-card-title>Sign Up</mat-card-title>
+  <mat-card-content>
+  <form (ngSubmit)="submit()">
+    <p>
+      <mat-form-field>
+        <input type="text" matInput placeholder="Enter Your Email" name="email" [(ngModel)]="email">
+      </mat-form-field>
+    </p>
+  
+    <p>
+      <mat-form-field>
+        <input type="password" matInput placeholder="Password" name="pass" [(ngModel)]="password">
+      </mat-form-field>
+    </p>
+  
+    <p *ngIf="error" class="error">
+      {{ error }}
+    </p>
+    <div class="button">
+      <!-- <p><a href="javascript:void(0)" (click)="loginClicked()">Login</a></p> -->
+      <button type="submit" mat-raised-button>Sign Up</button>
+    </div>
+  
+  </form>
+  </mat-card-content>
+  </mat-card>
+
